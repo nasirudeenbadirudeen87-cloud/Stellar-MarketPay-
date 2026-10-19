@@ -54,7 +54,6 @@ stellar-marketpay/
 ├── backend/               # Node.js + Express REST API
 ├── contracts/             # Stellar Soroban smart contracts (Rust)
 ├── packages/
-│   ├── backend/           # Shared backend packages & utilities
 │   └── client/            # TypeScript/JavaScript client SDK
 ├── infra/
 │   ├── cloudflare/        # CDN & WAF configuration
@@ -75,6 +74,10 @@ stellar-marketpay/
 ├── ROADMAP.md
 └── LICENSE
 ```
+
+Backend shared utilities currently live under `backend/src/`; there is no
+published `packages/backend` module yet, so this tree lists only shipped
+package directories.
 
 ---
 
